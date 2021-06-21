@@ -26,9 +26,12 @@ and/or `requirements-dev.txt`.*
 
 ## Documentation
 
-- [ ] Add `README.md` with a [template](https://github.com/pagarme/opensource/tree/master/templates)
+- [ ] Add `README.md`
+  - [ ] Have an intro
+  - [ ] Have an installation/deploy section
+  - [ ] Have a testing section
+  - [ ] Have a live demo made with **termtosvg**
 - [ ] Use **OpenAPI** for API documentation
-- [ ] Have a live demo made with **termtosvg**
 - [ ] Create a documentation page with **mkdocs**, **mkdocs-material** and **mkdocstrings**
 
 ## License
@@ -50,8 +53,13 @@ and/or `requirements-dev.txt`.*
 
 ## Linting
 
-- [ ] Use **flake8** with **flake8-docstrings**, **flake8-isort**
-- [ ] Use mypy with [strict config](TODO)
+- [ ] Use **flake8** with extensions:
+  - [ ] **flake8-docstrings**
+  - [ ] **flake8-pep3101**
+  - [ ] **flake8-spellcheck**
+  - [ ] **flake8-isort**
+  - [ ] **flake8-fixme**
+- [ ] Use mypy
 - [ ] Use `.editorconfig`
 
 ## Continious integration
