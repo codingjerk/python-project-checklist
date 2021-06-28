@@ -34,6 +34,16 @@ and/or `requirements-dev.txt`.*
   - [ ] Have a live demo made with **termtosvg**
 - [ ] Use **OpenAPI** for API documentation
 - [ ] Create a documentation page with **mkdocs**, **mkdocs-material** and **mkdocstrings**
+- [ ] Add badges
+  - [ ] CI pipeline status
+  - [ ] Code quality: code coverage, maintainability indexes
+  - [ ] Package status: package health (see [Snyk](https://snyk.io/)), vulnerabilities, out of date dependencies
+  - [ ] General status: maintanance status, uptime (for web)
+  - [ ] Package info: size, lines of code, license, version
+  - [ ] Popularity: stars, downloads
+  - [ ] Discord server
+  - [ ] Funding via [Open Collective](https://opencollective.com/)
+  - Find more at [shields.io](https://shields.io/) and [badgen.net](https://badgen.net/)
 
 ## License
 
