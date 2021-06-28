@@ -9,6 +9,7 @@
 - [ ] Add [tests](#tests)
 - [ ] Add [linting](#linting)
 - [ ] Setup [continious integration](#continious-integration)
+- [ ] Make [contribution](#contribution) easier
 
 ## Version Control
 
@@ -67,3 +68,8 @@ and/or `requirements-dev.txt`.*
 - [ ] Use **github actions**
 - [ ] Add lint, test, build and publish pipeline stages
 - [ ] Add badges to `README.md`
+
+## Contribution
+
+- [ ] Have `CONTRIBUTING.md` file (see [example](https://github.com/github/docs/blob/main/CONTRIBUTING.md) and [another one](https://gist.github.com/PurpleBooth/b24679402957c63ec426))
+- [ ] Have Contribution section in your `README.md`
