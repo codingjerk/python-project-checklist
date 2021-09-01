@@ -30,7 +30,7 @@ and/or `requirements-dev.txt`.*
 - [ ] Add `README.md`
   - [ ] Have an intro
   - [ ] Have an installation/deploy section
-  - [ ] Have a testing section
+  - [ ] Have a usage section
   - [ ] Have a live demo made with **termtosvg**
 - [ ] Use **OpenAPI** for API documentation
 - [ ] Create a documentation page with **mkdocs**, **mkdocs-material** and **mkdocstrings**
