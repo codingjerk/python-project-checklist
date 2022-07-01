@@ -15,12 +15,14 @@
 
 - [ ] Use **git**
 - [ ] Add `.gitignore` ([gitignore.io](http://gitignore.io/))
+- [ ] Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+  - [ ] Consider using `cz` [(link)](https://commitizen-tools.github.io/commitizen/)
 
 *Optionally you can use mercurial (hg), bazaar, darcs, etc.*
 
 ## Dependency Management
 
-- [ ] Use **poetry**
+- [ ] Use **poetry** and `pyproject.toml` (see [PEP621](https://peps.python.org/pep-0621/))
 
 *Optionally, you can stick with `requirements.txt`
 and/or `requirements-dev.txt`.*
@@ -71,7 +73,10 @@ and/or `requirements-dev.txt`.*
   - [ ] **flake8-isort**
   - [ ] **flake8-fixme**
 - [ ] Use mypy
-- [ ] Use `.editorconfig`
+- [ ] Use `.editorconfig` (see [.editorconfig](./examples/.editorconfig))
+- [ ] Use specific linters
+  - [ ] Use yamllint for `yml` files
+  - [ ] Use hadolint for `Dockerfile`s
 
 ## Continious integration
 
@@ -82,4 +87,4 @@ and/or `requirements-dev.txt`.*
 ## Contribution
 
 - [ ] Have `CONTRIBUTING.md` file (see [example](https://github.com/github/docs/blob/main/CONTRIBUTING.md) and [another one](https://gist.github.com/PurpleBooth/b24679402957c63ec426))
-- [ ] Have Contribution section in your `README.md`
+- [ ] Have "Contribution" section in your `README.md`
