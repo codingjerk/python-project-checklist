@@ -8,6 +8,7 @@
 - [ ] Add [license](#license)
 - [ ] Add [tests](#tests)
 - [ ] Add [linting](#linting)
+- [ ] Check [logging](#logging)
 - [ ] Setup [continious integration](#continious-integration)
 - [ ] Make [contribution](#contribution) easier
 
@@ -78,6 +79,11 @@ and/or `requirements-dev.txt`.*
   - [ ] Use **yamllint** for `yml` files
   - [ ] Use **hadolint** for `Dockerfile`s
   - [ ] Use **dotenv-linter** for `env` files
+
+## Logging
+
+- [ ] Use **loguru**
+- [ ] Consider change default `LOGURU_LEVEL` to `INFO`
 
 ## Continious integration
 
