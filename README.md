@@ -72,11 +72,12 @@ and/or `requirements-dev.txt`.*
   - [ ] **flake8-spellcheck**
   - [ ] **flake8-isort**
   - [ ] **flake8-fixme**
-- [ ] Use mypy
+- [ ] Use **mypy**
 - [ ] Use `.editorconfig` (see [.editorconfig](./examples/.editorconfig))
 - [ ] Use specific linters
-  - [ ] Use yamllint for `yml` files
-  - [ ] Use hadolint for `Dockerfile`s
+  - [ ] Use **yamllint** for `yml` files
+  - [ ] Use **hadolint** for `Dockerfile`s
+  - [ ] Use **dotenv-linter** for `env` files
 
 ## Continious integration
 
