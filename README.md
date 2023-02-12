@@ -60,22 +60,21 @@ and/or `requirements-dev.txt`.*
   - [ ] Use **hypothesis** for property testing
 - [ ] Add e2e tests
   - [ ] Use **tavern** for API testing
-  - [ ] Use **playwright** for web testing
+  - [ ] Use **playwright** for UI testing
 - [ ] Add smoke tests
 - [ ] Add benchmarks with **pytest-benchmark**
 - [ ] Add test coverage with **pytest-cov**
 
 ## Linting
 
-- [ ] Use **flake8** with extensions:
-  - [ ] **flake8-docstrings**
-  - [ ] **flake8-pep3101**
-  - [ ] **flake8-spellcheck**
-  - [ ] **flake8-isort**
-  - [ ] **flake8-fixme**
+- [ ] Use **black**
+- [ ] Use **ruff**
 - [ ] Use **mypy**
 - [ ] Use `.editorconfig` (see [.editorconfig](./examples/.editorconfig))
 - [ ] Use specific linters
+  - [ ] Use **cspell** to check spelling
+  - [ ] Use **shellcheck** for `shell` scripts
+  - [ ] Use **sqlfluff** for `sql` files
   - [ ] Use **yamllint** for `yml` files
   - [ ] Use **hadolint** for `Dockerfile`s
   - [ ] Use **dotenv-linter** for `env` files
