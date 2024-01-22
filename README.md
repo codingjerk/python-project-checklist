@@ -9,7 +9,7 @@
 - [ ] Add [tests](#tests)
 - [ ] Add [linting](#linting)
 - [ ] Check [logging](#logging)
-- [ ] Setup [continious integration](#continious-integration)
+- [ ] Setup [continuous integration](#continious-integration)
 - [ ] Make [contribution](#contribution) easier
 
 ## Version Control
@@ -17,7 +17,7 @@
 - [ ] Use **git**
 - [ ] Add `.gitignore` ([gitignore.io](http://gitignore.io/))
 - [ ] Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
-  - [ ] Consider using `cz` [(link)](https://commitizen-tools.github.io/commitizen/)
+  - [ ] Consider using **cz** [(link)](https://commitizen-tools.github.io/commitizen/)
 
 *Optionally you can use mercurial (hg), bazaar, darcs, etc.*
 
@@ -25,8 +25,7 @@
 
 - [ ] Use **poetry** and `pyproject.toml` (see [PEP621](https://peps.python.org/pep-0621/))
 
-*Optionally, you can stick with `requirements.txt`
-and/or `requirements-dev.txt`.*
+*Optionally, you can stick with setuptools or hatchling*
 
 ## Documentation
 
@@ -41,7 +40,7 @@ and/or `requirements-dev.txt`.*
   - [ ] CI pipeline status
   - [ ] Code quality: code coverage, maintainability indexes
   - [ ] Package status: package health (see [Snyk](https://snyk.io/)), vulnerabilities, out of date dependencies
-  - [ ] General status: maintanance status, uptime (for web)
+  - [ ] General status: maintenance status, uptime (for web)
   - [ ] Package info: size, lines of code, license, version
   - [ ] Popularity: stars, downloads
   - [ ] Discord server
@@ -63,11 +62,11 @@ and/or `requirements-dev.txt`.*
   - [ ] Use **playwright** for UI testing
 - [ ] Add smoke tests
 - [ ] Add benchmarks with **pytest-benchmark**
+  - [ ] Use **pytest-memray** to control memory usage
 - [ ] Add test coverage with **pytest-cov**
 
 ## Linting
 
-- [ ] Use **black**
 - [ ] Use **ruff**
 - [ ] Use **mypy**
 - [ ] Use `.editorconfig` (see [.editorconfig](./examples/.editorconfig))
@@ -84,7 +83,7 @@ and/or `requirements-dev.txt`.*
 - [ ] Use **loguru**
 - [ ] Consider change default `LOGURU_LEVEL` to `INFO`
 
-## Continious integration
+## Continuous integration
 
 - [ ] Use **github actions**
 - [ ] Add lint, test, build and publish pipeline stages
